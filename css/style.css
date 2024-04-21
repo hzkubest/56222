@@ -249,7 +249,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(28, 192, 233, 0.95), rgba(52, 13, 243, 0.95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(28, 165, 233, 0.935), rgba(28, 31, 233, 0.95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,16 +315,16 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: transparent;
-    background:transparent;
-    box-shadow: inset 0 0 0 50px ;
+    color: #009688;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 50px #ffffff;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #fff;
-    background: #009688;
-    box-shadow: inset 0 0 0 0 #009688;
-    border-color: #009688;
+    color: #ffffff;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
 }
 
 .hero .hero-btn .btn:first-child {
